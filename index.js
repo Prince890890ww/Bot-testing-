@@ -206,7 +206,7 @@ async function handleGroupCommand(api, event, args, isAdmin) {
     }
     
     const subCommand = args.shift();
-    if (subCommand === 'on') {
+if (subCommand === 'on') {
         const groupName = args.join(' ');
         lockedGroups[threadID] = groupName;
         
